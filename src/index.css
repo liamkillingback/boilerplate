@@ -4,5 +4,22 @@
 
 html {
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.landing {
+    background-image: url('./assets/landing.jpg');
+    background-size: 110%;
+    background-position-x: center;
+
+}
+@media screen and (max-width: 1280px) {
+    .landing {
+        background-size: 200%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .landing {
+        background-size: 340%;
+    }
+}
